@@ -2,8 +2,13 @@
 pipeline {
   agent any
     
-  tools {nodejs "node"}
-  tools {docker "docker"}
+    tools {
+        // Spécifiez l'outil Node.js avec le label "node" et la version souhaitée
+        nodejs "node"
+
+        // Spécifiez l'outil Docker avec le label "docker"
+        docker "docker"
+    }
     
   stages {
         
