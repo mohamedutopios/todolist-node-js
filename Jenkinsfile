@@ -1,8 +1,8 @@
 node {
         
-    // stage('Build') {
-    //     sh 'npm install'
-    // }
+     stage('Build') {
+         sh 'ls'
+     }
     // stage('Test') {
     //     sh 'npm test'
     // }
