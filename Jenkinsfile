@@ -1,7 +1,7 @@
 node {
         
      stage('Build') {
-         sh 'echo server.js'
+         sh 'cat server.js'
      }
     // stage('Test') {
     //     sh 'npm test'
